@@ -1,0 +1,13 @@
+# Dependencies and build artifacts
+node_modules
+client/node_modules
+build
+client/dist
+
+# Logs and environment files
+npm-debug.log
+.env
+
+# Source control
+.git
+.gitignore

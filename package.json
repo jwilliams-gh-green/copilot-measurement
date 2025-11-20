@@ -1,0 +1,14 @@
+{
+  "name": "copilot-metrics-viewer",
+  "version": "1.0.0",
+  "description": "A containerized Node.js and React app to visualize GitHub Copilot metrics.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.6.1"
+  }
+}

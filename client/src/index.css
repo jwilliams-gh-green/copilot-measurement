@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f8fafc;
+  --muted: #6b7280;
+  --accent: #6366f1;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #111827;
+}
+
+/* Basic container spacing that mirrors Tailwind-style spacing a bit */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Simple helpers used by the app if Tailwind isn't built */
+.text-muted { color: var(--muted); }
+.btn { display:inline-block; padding:0.5rem 0.75rem; border-radius:8px; background:var(--accent); color:#fff; text-decoration:none; }

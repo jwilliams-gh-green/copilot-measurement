@@ -1,0 +1,9 @@
+services:
+  app:
+    build: . 
+    container_name: copilot-metrics-app
+    ports: 
+      - "3000:3000" 
+    restart: always 
+    command: node server.js
+    dns: 8.8.8.8

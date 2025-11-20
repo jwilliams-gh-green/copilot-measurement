@@ -95,7 +95,7 @@ app.get('/api/copilot-metrics', async (req, res) => {
 
         // STEP 3f: Parse and log the successful response
         const data = await response.json();
-        console.log('GitHub API Response Data:', JSON.stringify(data, null, 2)); // Debug log
+        // console.log('GitHub API Response Data:', JSON.stringify(data, null, 2)); // Debug log
 
         // STEP 3g: Forward the GitHub API response to the frontend
         res.json(data);

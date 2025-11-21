@@ -14,4 +14,4 @@ curl --request POST \
 --data '{"token":"'$TOKEN'","org":"'$ORG'"}' \
 | jq
 ```
-5. If you opt not to use the UI to enter configuratation data, given that this is a SPA, you can simply reload/refresh `https://localhost:3000` after the data is posted to view the **Metrics Dashboard** with the relevant data populated.
+5. If you opt not to use the UI to enter configuratation data, given that this is a SPA, you can simply reload/refresh `http://localhost:3000` after the data is posted to view the **Metrics Dashboard** with the relevant data populated.
